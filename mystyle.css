@@ -62,7 +62,6 @@ body {
 /* Style the header */
 .header {
   background-color: 			#FEF8EC;
-  padding: 						30px;
   text-align:					center;
   font-size:					35px;
 }
@@ -71,7 +70,6 @@ body {
 .column {
   float: left;
   width: 33.33%;
-  padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
@@ -85,7 +83,6 @@ body {
 /* Style the footer */
 .footer {
   background-color: 			#FEF8EC;
-  padding: 						10px;
   text-align: 					center;
 }
 
