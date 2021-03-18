@@ -94,6 +94,7 @@ body {
 }
 /* Columns that list specific info - must be converted to flexboxes */
 .column {
+	position: absolute;
 	font-family: 'DM Mono', monospace;
 	/*flex:			1;*/
 	height: 255px;
