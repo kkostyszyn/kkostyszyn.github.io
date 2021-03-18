@@ -76,7 +76,7 @@ body {
 	background-image:	url("img/header-img.jpg");
 	background-size: 	cover;
 	grid-area:						image;
-	height:								20%;
+	height:								100%;
 }
 /* Meat & potatoes - bio and research */
 .info{
