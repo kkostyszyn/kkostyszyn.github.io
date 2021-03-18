@@ -33,7 +33,7 @@
 }
 
 .theme-dark {
-  --background-primary: 			#d5b4d1;
+  --background-primary: 			#F2F1F8;
   --background-secondary: 		#44475a;
   --background-accent: 			#f8f8f2;
 
@@ -61,14 +61,19 @@ body {
 
 /* Style the header */
 .header {
-  background-color: 			#F2F1F8;
+  background-color: 			var(--background-primary);
   padding: 						30px;
   text-align:					center;
   font-size:						35px;
+  width:							66.66%;
 }
 
 .sub-header{
 	font-size:					25px;
+}
+
+.img{
+	width:						33.33%;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -89,7 +94,7 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: 			#F2F1F8;
+  background-color: 			var(--background-primary);
   padding: 						10px;
   text-align: 					center;
 }
