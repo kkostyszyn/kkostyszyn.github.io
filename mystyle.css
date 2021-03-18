@@ -22,7 +22,7 @@
 
   --background-primary:		#F2F1F8;
   --background-secondary:	#44475a;
-  --background-accent:			#f8f8f2;
+  --background-accent:			#d5b4d1;
 
   --text-title-h1:				#00b368;
   --text-title-h2:      #009456;
@@ -53,6 +53,7 @@ body {
   grid-gap: 				5px 0px;
   grid-template-areas: 
     ". 				image header header	header"
+			"menu		menu	menu	menu		menu"
     ". 				etc		info 		research	."
     "footer 		footer 	footer	footer		footer";
 }
@@ -77,6 +78,14 @@ body {
 	background-size: 	cover;
 	grid-area:						image;
 	height:								100%;
+}
+
+/* Menu bar - right now just colorful and pretty */
+
+.menubar{
+	grid-area:		menu;
+	background-color:		var(--background-accent);
+	height:				5%;
 }
 /* Meat & potatoes - bio and research */
 .info{
