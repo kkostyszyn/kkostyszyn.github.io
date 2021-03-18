@@ -72,7 +72,7 @@ body {
 	font-size:	var(--font-size-h6);
 }
 /* Image of self */
-.image{
+.image-me{
 	background-image:	url("img/header-img.jpeg");
 	background-size: 	cover;
 	grid-area:						image;
