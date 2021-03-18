@@ -86,6 +86,7 @@ body {
 	grid-area:		menu;
 	background-color:		var(--background-accent);
 	height:				5%;
+	text-align:	center;
 }
 /* Meat & potatoes - bio and research */
 .info{
