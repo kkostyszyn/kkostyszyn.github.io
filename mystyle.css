@@ -47,7 +47,7 @@ body {
 }
 .container {
   display: 				grid;
-  grid-template-columns: 10% 26% 26% 26% 10%;
+  grid-template-columns: auto 26% 26% 26% auto;
   grid-template-rows:	auto;
   grid-gap: 				5px 0px;
   grid-template-areas: 
@@ -61,12 +61,12 @@ body {
 	grid-area:			header;
 	background-color: 	var(--background-primary);
 	text-align:			center;
-	font-size:			35px;
+	font-size:			var(--font-size-h1);
 }
 /* Sub-header for quick links */
 .sub-header{
 	font-family: "DM Mono", Courier New, monospace;
-	font-size:	25px;
+	font-size:	var(--font-size-h6);
 }
 /* Image of self */
 .image{
