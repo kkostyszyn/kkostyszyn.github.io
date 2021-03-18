@@ -84,7 +84,7 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: 			var(--background-primary);
+  background-color: 			#FEF8EC;
   padding: 						10px;
   text-align: 					center;
 }
