@@ -87,10 +87,12 @@ body {
 
 /* Clear floats after the columns */
 .row:after {
-	content: 		"";
-	display:		flex;
-	clear: 		both;
-	height:		100%;
+	content: 			"";
+	display:			flex;
+	flex-direction:	row;
+	align-items:		stretch;
+	clear: 			both;
+	height:			100%;
 }
 
 /* Style the footer */
