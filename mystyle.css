@@ -53,7 +53,7 @@ body {
   /*grid-gap: 				5px 0px;*/
   grid-template-areas: 
 			". 				image header header	header"
-			"menu		menu	menu	menu		menu"
+			".				menu	menu	menu		menu"
 			". 				etc		info 		research	."
 			"footer 	footer 	footer	footer		footer";
 }
