@@ -71,7 +71,7 @@ body {
 /* Image of self */
 .image{
 	grid-area:	image;
-	width:		33.33%;
+	height:		20%;
 }
 /* Meat & potatoes - bio and research */
 .info{
