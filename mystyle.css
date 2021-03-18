@@ -82,10 +82,10 @@ body {
 	clear: 			both;
 	
 	margin-top: 		30px;
-	display: 		grid;
+	display: 			grid;
 	grid-auto-flow:	row;
 	grid-template-columns: 	300px 300px 300px;
-	grid-template-rows: 		5px;
+	/*grid-template-rows: 		5px;*/
 	grid-gap: 		2rem;
 	justify-content: 			center;
 	max-width: 		1000px;
