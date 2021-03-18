@@ -86,7 +86,7 @@ body {
 	grid-auto-flow:	row;
 	grid-template-columns: 	300px 300px 300px;
 	grid-template-rows: 		300px;
-	grid-gap: 		2rem;
+	grid-gap: 		25px;
 	justify-content: 			center;
 	max-width: 		1000px;
 	margin-left: 	auto;
@@ -102,10 +102,6 @@ body {
 	/*border-top: 25px solid #5A5475;
 	float: 		left;
 	width: 		33.33%;*/
-}
-
-.c{
-	position:		absolute;
 }
 
 /* Style the footer */
