@@ -62,6 +62,7 @@ body {
 	background-color: 	var(--background-primary);
 	text-align:			right;
 	font-size:			var(--font-size-h1);
+	padding:				10px;
 }
 /* Sub-header for quick links */
 .sub-header{
