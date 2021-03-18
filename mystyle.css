@@ -38,10 +38,9 @@
   --border-color:       #f49725; /*also like transparent*/
 }
 
-/* {
-  box-sizing:	border-box;
-  border:			0px;
-}*/
+* {
+  box-sizing:	content-box;
+}
 
 body {
   font-family: "Nunito", Courier New, monospace;
