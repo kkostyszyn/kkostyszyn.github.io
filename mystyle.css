@@ -69,10 +69,11 @@ body {
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+	font-family: 'DM Mono', monospace;
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
