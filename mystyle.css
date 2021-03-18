@@ -51,7 +51,7 @@ body {
   grid-template-rows:	auto;
   grid-gap: 				15px;
   grid-template-areas: 
-    ". image 	header 	header	."
+    "image image 	header 	header	header"
     ". info 	research	etc	."
     ". footer 	footer	footer	.";
 }
