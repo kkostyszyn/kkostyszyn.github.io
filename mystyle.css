@@ -48,7 +48,7 @@ body {
 .container {
   display: 				grid;
   grid-template-columns: auto 400px 400px 400px auto;
-  grid-template-rows:	auto;
+  grid-template-rows:	20% auto auto;
   grid-gap: 				15px;
   grid-template-areas: 
     ". image 	header 	header	."
