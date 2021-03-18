@@ -76,7 +76,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-columns: 200px 500px 500px 200px;
   grid-template-rows: auto;
   grid-template-areas: 
     "image header header header"
