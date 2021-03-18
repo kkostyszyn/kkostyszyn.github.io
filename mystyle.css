@@ -7,6 +7,11 @@
 	src:			url(C:/Windows/Fonts/Cartograph CF/CartographCF-Regular.otf) format('opentype');
 }
 
+@font-face{
+	font-family:		"Nunito";
+	src:				url('https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet')
+}
+
 :root
 {
     --font-size-normal:              19px;
@@ -20,12 +25,10 @@
     --font-size-h4:                  21px;
     --font-size-h5:                  20px;
     --font-size-h6:                  19px;
-    --font-family-editor:            "Carto", Courier New, monospace;
-    --font-family-preview:           Courier, Courier New, monospace;
 }
 
 .theme-dark {
-  --background-primary: 		#d5b4d1;
+  --background-primary: 			#d5b4d1;
   --background-secondary: 		#44475a;
   --background-accent: 			#f8f8f2;
 
@@ -48,7 +51,7 @@
 }
 
 body {
-  font-family: "Carto", Courier New, monospace;
+  font-family: "Nunito", Courier New, monospace;
 }
 
 /* Style the header */
