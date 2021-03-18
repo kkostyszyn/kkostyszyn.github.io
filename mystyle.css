@@ -60,12 +60,11 @@ body {
 /* Style the header */
 .header {
 	background-color: 			var(--background-primary);
-	padding: 						30px;
+	padding: 						20px;
 	text-align:					center;
 	font-size:					35px;
 	width:							75%;
 	float: 						right;
-
 }
 
 .sub-header{
