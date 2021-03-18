@@ -49,7 +49,7 @@ body {
 
 /* Style the header */
 .header {
-  background-color: 			--background-primary;
+  background-color: 			var(--background-primary);
   padding: 						30px;
   text-align:					center;
   font-size:					35px;
@@ -72,7 +72,7 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: 			--background-primary;
+  background-color: 			var(--background-primary);
   padding: 						10px;
   text-align: 					center;
 }
