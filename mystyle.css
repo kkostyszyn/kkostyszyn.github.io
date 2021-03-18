@@ -46,10 +46,10 @@ body {
   font-family: "Nunito", Courier New, monospace;
 }
 .container {
-  display: grid;
+  display: 				grid;
   grid-template-columns: auto 400px 400px 400px auto;
-  grid-template-rows: auto;
-  grid-gap: 15px;
+  grid-template-rows:	auto;
+  grid-gap: 				15px;
   grid-template-areas: 
     ". image 	header 	header	."
     ". info 	research	etc	."
@@ -58,19 +58,20 @@ body {
 
 /* Style the header */
 .header {
-	grid-area:					header;
-	background-color: 			var(--background-primary);
-	text-align:					center;
-	font-size:					35px;
+	grid-area:			header;
+	background-color: 	var(--background-primary);
+	text-align:			center;
+	font-size:			35px;
 }
 /* Sub-header for quick links */
 .sub-header{
-	font-size:					25px;
+	font-family: "DM Mono", Courier New, monospace
+	font-size:	20px;
 }
 /* Image of self */
-.img{
-	grid-area:					image;
-	width:						33.33%;
+.image{
+	grid-area:	image;
+	width:		33.33%;
 }
 .info{
 	padding:		10px;
@@ -87,15 +88,15 @@ body {
 
 /* Style the footer */
 .footer {
-	grid-area:					footer;
-  background-color: 			var(--background-primary);
-  padding: 						10px;
-  text-align: 					center;
+	grid-area:			footer;
+  background-color:	var(--background-primary);
+  padding: 				10px;
+  text-align: 			center;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 		100%;
   }
 }
