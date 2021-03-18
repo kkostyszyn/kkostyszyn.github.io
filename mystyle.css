@@ -60,7 +60,7 @@ body {
   display: grid;
   grid-template-columns: 20% 30% 30% 20%;
   grid-template-rows: auto;
-  grid-gap: 50px;
+  grid-gap: 25px;
   grid-template-areas: 
     "image header header header"
     "info research etc ."
