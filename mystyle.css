@@ -66,33 +66,35 @@ body {
 	width:							75%;
 	float: 						right;
 }
-
+/* Sub-header for quick links */
 .sub-header{
 	font-size:					25px;
 }
-
+/* Image of self */
 .img{
 	width:						33.33%;
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-	font-family: 'DM Mono', monospace;
-	flex:			1;
-	float: 		left;
-	width: 		33.33%;
-	padding: 		10px;
-/*	height: 300px;  Should be removed. Only for demonstration */
-}
 
 /* Clear floats after the columns */
 .row:after {
 	content: 			"";
-	display:			flex;
-	flex-direction:	row;
-	align-items:		stretch;
 	clear: 			both;
-	height:			100%;
+	
+	display:			flex;
+	flex-flow: 		row wrap;
+	justify-content: 	space-around;
+	align-items:		stretch;
+
+}
+/* Columns that list specific info - must be converted to flexboxes */
+.column {
+	font-family: 'DM Mono', monospace;
+	flex:			1;
+	float: 		left;
+	height:		200px;
+	width: 		33.33%;
+	padding: 		10px;
 }
 
 /* Style the footer */
