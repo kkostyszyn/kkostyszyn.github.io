@@ -64,7 +64,7 @@ body {
 	text-align:			right;
 	font-size:			var(--font-size-h1);
 	padding:				10px;
-	padding-left:	20%;
+	padding-right:	20%;
 }
 /* Sub-header for quick links */
 .sub-header{
