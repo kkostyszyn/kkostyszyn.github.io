@@ -98,11 +98,14 @@ body {
 	/*flex:			1;*/
 	height: 255px;
 	padding: 25px;
-	border-radius: 10px;
 	text-align: left;
 	/*border-top: 25px solid #5A5475;
 	float: 		left;
 	width: 		33.33%;*/
+}
+
+.c{
+	position:		absolute;
 }
 
 /* Style the footer */
