@@ -58,13 +58,13 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-columns: 33% 33% 33%;
   grid-template-rows: auto;
   grid-gap: 25px;
   grid-template-areas: 
-    "image header header header"
-    "info research etc ."
-    "footer footer footer footer";
+    "image header header"
+    "info research etc"
+    "footer footer footer";
 }
 
 /* Style the header */
@@ -84,13 +84,16 @@ body {
 	width:						33.33%;
 }
 .info{
-	grid-area: info;
+	padding:		10px;
+	grid-area: 	info;
 }
 .research{
-	grid-area: research;
+	padding:		10px;
+	grid-area: 	research;
 }
 .etc{
-	grid-area: etc;
+	padding:		10px;
+	grid-area: 	etc;
 }
 
 /* Style the footer */
