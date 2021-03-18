@@ -59,12 +59,10 @@ body {
 
 /* Style the header */
 .header {
+	grid-area:					header;
 	background-color: 			var(--background-primary);
-	padding: 						20px;
 	text-align:					center;
 	font-size:					35px;
-	width:							75%;
-	float: 						right;
 }
 /* Sub-header for quick links */
 .sub-header{
@@ -72,26 +70,31 @@ body {
 }
 /* Image of self */
 .img{
+	grid-area:					image;
 	width:						33.33%;
 }
 
-
-/* Clear floats after the columns */
-.row:after {
-	content: 			"";
-	clear: 			both;
-	
-	margin-top: 		30px;
-    display: 		grid;
-    grid-auto-flow:	row;
-    grid-template-columns: 	300px 300px 300px;
-    grid-template-rows: 		325px 325px;
-    grid-gap: 		2rem;
-    justify-content: 			center;
-    max-width: 		1000px;
-    margin-left: 	auto;
-    margin-right:	 auto;
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "image header header header"
+    "info research etc ."
+    "footer footer footer footer";
 }
+
+.info{
+	grid-area: info;
+}
+.research{
+	grid-area: research;
+}
+.etc{
+	grid-area: etc;
+}
+
+
 /* Columns that list specific info - must be converted to flexboxes */
 .column {
 	font-family: 'DM Mono', monospace;
@@ -107,6 +110,7 @@ body {
 
 /* Style the footer */
 .footer {
+	grid-area:					footer;
   background-color: 			var(--background-primary);
   padding: 						10px;
   text-align: 					center;
