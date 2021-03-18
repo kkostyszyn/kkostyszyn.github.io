@@ -1,4 +1,8 @@
 @font-face{
+	/*
+	Other possible fonts:
+		https://fonts.google.com/specimen/DM+Mono?preview.text_type=custom
+	*/
 	font-family:	"Carto";
 	src:			url(C:/Windows/Fonts/Cartograph CF/CartographCF-Regular.otf) format('opentype');
 }
@@ -49,7 +53,7 @@ body {
 
 /* Style the header */
 .header {
-  background-color: 			var(--background-primary);
+  background-color: 			#d5b4d1;
   padding: 						30px;
   text-align:					center;
   font-size:					35px;
