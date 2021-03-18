@@ -60,7 +60,7 @@ body {
 .header {
 	grid-area:			header;
 	background-color: 	var(--background-primary);
-	text-align:			center;
+	text-align:			right;
 	font-size:			var(--font-size-h1);
 }
 /* Sub-header for quick links */
