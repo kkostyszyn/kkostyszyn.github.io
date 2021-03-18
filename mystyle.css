@@ -64,7 +64,11 @@ body {
   background-color: 			#F2F1F8;
   padding: 						30px;
   text-align:					center;
-  font-size:					35px;
+  font-size:						35px;
+}
+
+.sub-header{
+	font-size:					25px;
 }
 
 /* Create three equal columns that floats next to each other */
