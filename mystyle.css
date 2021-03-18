@@ -47,6 +47,7 @@ body {
 }
 .container {
   display: 				grid;
+  padding:					0px;
   grid-template-columns: auto max(250px, 26%) max(250px, 26%) max(250px, 26%) auto;
   grid-template-rows:	auto;
   grid-gap: 				5px 0px;
