@@ -61,7 +61,7 @@ body {
 
 /* Style the header */
 .header {
-  background-color: 			#FEF8EC;
+  background-color: 			#F2F1F8;
   padding: 						30px;
   text-align:					center;
   font-size:					35px;
@@ -84,7 +84,7 @@ body {
 
 /* Style the footer */
 .footer {
-  background-color: 			#FEF8EC;
+  background-color: 			#F2F1F8;
   padding: 						10px;
   text-align: 					center;
 }
