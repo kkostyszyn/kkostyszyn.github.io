@@ -30,9 +30,7 @@
     --font-size-h4:                  21px;
     --font-size-h5:                  20px;
     --font-size-h6:                  19px;
-}
 
-.theme-dark {
   --background-primary: 			#F2F1F8;
   --background-secondary: 		#44475a;
   --background-accent: 			#f8f8f2;
