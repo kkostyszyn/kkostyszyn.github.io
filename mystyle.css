@@ -59,11 +59,13 @@ body {
 
 /* Style the header */
 .header {
-  background-color: 			var(--background-primary);
-  padding: 						30px;
-  text-align:					center;
-  font-size:						35px;
-  width:							66.66%;
+	background-color: 			var(--background-primary);
+	padding: 						30px;
+	text-align:					center;
+	font-size:					35px;
+	width:							66.66%;
+	float: 						right;
+
 }
 
 .sub-header{
