@@ -73,7 +73,7 @@ body {
 }
 /* Image of self */
 .image-me{
-	background-image:	url("img/header-img.jpeg");
+	background-image:	url("img/header-img.jpg");
 	background-size: 	cover;
 	grid-area:						image;
 	height:								20%;
