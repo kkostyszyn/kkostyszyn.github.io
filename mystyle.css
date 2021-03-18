@@ -85,7 +85,7 @@ body {
 .menubar{
 	grid-area:		menu;
 	background-color:		var(--background-accent);
-	height:				10%;
+	height:				10px;
 	text-align:	center;
 }
 /* Meat & potatoes - bio and research */
