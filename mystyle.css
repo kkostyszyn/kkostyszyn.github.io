@@ -38,6 +38,18 @@
   --border-color:       #f49725; /*also like transparent*/
 }
 
+a:link, a:visited{
+	font-weight: 	normal;
+	color:				var(--background-accent);
+	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: 	underline;
+  font-weight: 		bold;
+  color:			   	var(--text-title-h4);
+}
+
 * {
   box-sizing:	content-box;
 }
