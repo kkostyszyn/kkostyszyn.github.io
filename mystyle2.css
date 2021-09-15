@@ -73,6 +73,8 @@ body {
 	margin: 0 auto;
     padding: 0 2em;
     max-width: 900px;
+	padding-right:	20%;
+	padding-left:	20%;
 }
 
 /* Style the header */
@@ -82,7 +84,7 @@ body {
 	text-align:			right;
 	font-size:			var(--font-size-h1);
 	padding:				10px;
-	padding-right:	20%;
+
 }
 /* Sub-header for quick links */
 .sub-header{
