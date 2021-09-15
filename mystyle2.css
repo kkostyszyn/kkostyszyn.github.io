@@ -70,18 +70,9 @@ body {
   font-family: "Nunito", Courier New, monospace;
 }
 .container {
-  display: 				grid;
-  padding:					0px;
-  grid-template-columns: 300px auto 300px;
-  grid-template-rows:	auto;
-  grid-gap: 				5px 0px;
-  grid-template-areas: 
-			".	header	."
-			".	menubar	."
-			".	etc		."
-			".	info	."
-			".	research	."
-			"footer	footer	footer";
+	margin: 0 auto;
+    padding: 0 2em;
+    max-width: 900px;
 }
 
 /* Style the header */
