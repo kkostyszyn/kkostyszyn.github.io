@@ -66,6 +66,11 @@ a:hover {
 	border-width:	0px 0px 0px 2px; 
 }
 
+#pad{
+	padding-right:	20%;
+	padding-left:	20%;
+}
+
 body {
   font-family: "Nunito", Courier New, monospace;
 }
@@ -73,8 +78,7 @@ body {
 	margin: 0 auto;
     padding: 0 2em;
     max-width: 900px;
-	padding-right:	20%;
-	padding-left:	20%;
+
 }
 
 /* Style the header */
