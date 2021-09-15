@@ -8,34 +8,34 @@
 
 :root
 {
-	--font-size-normal:              19px;
-	--font-size-code:                16px;
-	--font-size-side-dock:           16px;
-	--font-size-side-dock-title:     18px;
-	--font-size-status-bar:          16px;
-	--font-size-h1:                  24px;
-	--font-size-h2:                  23px;
-	--font-size-h3:                  22px;
-	--font-size-h4:                  21px;
-	--font-size-h5:                  20px;
-	--font-size-h6:                  19px;
+	--font-size-normal:				19px;
+	--font-size-code:				16px;
+	--font-size-side-dock:			16px;
+	--font-size-side-dock-title:	18px;
+	--font-size-status-bar:		16px;
+	--font-size-h1:		24px;
+	--font-size-h2:		23px;
+	--font-size-h3:		22px;
+	--font-size-h4:		21px;
+	--font-size-h5:		20px;
+	--font-size-h6:		19px;
 
-  --background-primary:		#F2F1F8;
+  --background-primary:	#F2F1F8;
   --background-secondary:	#44475a;
-  --background-accent:			#d5b4d1;
+  --background-accent:		#d5b4d1;
 
-  --text-title-h1:				#00b368;
-  --text-title-h2:      #009456;
-  --text-title-h3:      #9995b7;
-  --text-title-h4:      #0095a8;
-  --text-title-h5:      #00bdd6;
-  --text-title-h6:      #0094f0;
-  --inline-code:        #5842ff;
-  --code-block:         #ff5792;
-  --pre-code:           #e64100;
-  --blockquote-border:		#b3694d;
-  --vim-cursor:         #d5971a;
-  --border-color:       #f49725; /*also like transparent*/
+  --text-title-h1:		#00b368;
+  --text-title-h2:		#009456;
+  --text-title-h3:		#9995b7;
+  --text-title-h4:		#0095a8;
+  --text-title-h5:		#00bdd6;
+  --text-title-h6:		#0094f0;
+  --inline-code:			#5842ff;
+  --code-block:			#ff5792;
+  --pre-code:			#e64100;
+  --blockquote-border:	#b3694d;
+  --vim-cursor:			#d5971a;
+  --border-color:		#f49725; /*also like transparent*/
 }
 
 a:link, a:visited{

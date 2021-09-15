@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+@font-face{
+	font-family:	"Carto";
+	src:			url(C:/Windows/Fonts/Cartograph_CF/CartographCF-Regular.otf) format('opentype');
+}
+
+:root
+{
+	--font-size-normal:				19px;
+	--font-size-code:				16px;
+	--font-size-side-dock:			16px;
+	--font-size-side-dock-title:	18px;
+	--font-size-status-bar:		16px;
+	--font-size-h1:		24px;
+	--font-size-h2:		23px;
+	--font-size-h3:		22px;
+	--font-size-h4:		21px;
+	--font-size-h5:		20px;
+	--font-size-h6:		19px;
+
+  --background-primary:	#F2F1F8;
+  --background-secondary:	#44475a;
+  --background-accent:		#d5b4d1;
+
+  --text-title-h1:		#00b368;
+  --text-title-h2:		#009456;
+  --text-title-h3:		#9995b7;
+  --text-title-h4:		#0095a8;
+  --text-title-h5:		#00bdd6;
+  --text-title-h6:		#0094f0;
+  --inline-code:			#5842ff;
+  --code-block:			#ff5792;
+  --pre-code:			#e64100;
+  --blockquote-border:	#b3694d;
+  --vim-cursor:			#d5971a;
+  --border-color:		#f49725; /*also like transparent*/
+}
+
+a:link, a:visited{
+	font-weight: 	normal;
+	color:				var(--background-accent);
+	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: 	underline;
+  font-weight: 		bold;
+  color:			   	var(--text-title-h4);
+}
+
+* {
+  box-sizing:	content-box;
+}
+
+#right { 
+	text-align: right; 
+	border-style:	solid;
+	border-width:	0px 2px 0px 0px; 
+	}
+	
+#left{
+	text-align:	left;
+	border-style:	solid;
+	border-width:	0px 0px 0px 2px; 
+}
+
+body {
+  font-family: "Nunito", Courier New, monospace;
+}
+.container {
+  display: 				grid;
+  padding:					0px;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows:	auto;
+  grid-gap: 				5px 0px;
+  grid-template-areas: 
+			".	header	."
+			".	menubar	."
+			".	etc		."
+			".	info	."
+			".	research	."
+			"footer	footer	footer";
+}
+
+/* Style the header */
+.header {
+	grid-area:			header;
+	/*background-color: 	var(--background-primary);*/
+	text-align:			right;
+	font-size:			var(--font-size-h1);
+	padding:				10px;
+	padding-right:	20%;
+}
+/* Sub-header for quick links */
+.sub-header{
+	font-family: "DM Mono", Courier New, monospace;
+	font-size:	var(--font-size-h4);
+}
+/* Image of self */
+.image-me{
+	background-image:	url("img/header-img.jpg");
+	background-size: 	cover;
+	grid-area:						image;
+	height:								225px;
+}
+
+/* Menu bar - right now just colorful and pretty */
+
+.menubar{
+	grid-area:		menu;
+	background-color:		var(--background-accent);
+	height:				10px;
+	text-align:	center;
+}
+/* Meat & potatoes - bio and research */
+.info{
+	padding:		10px;
+	grid-area: 	info;
+}
+.research{
+	padding:		10px;
+	grid-area: 	research;
+}
+.etc{
+	padding:		10px;
+	grid-area: 	etc;
+}
+
+/* Style the footer */
+.footer {
+	grid-area:			footer;
+  background-color:	var(--background-primary);
+  padding: 				10px;
+  text-align: 			center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 		100%;
+  }
+}
