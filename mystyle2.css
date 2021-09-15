@@ -90,7 +90,7 @@ body {
 }
 /* Sub-header for quick links */
 .sub-header{
-	font-family: "DM Mono", Courier New, monospace;
+	font-family: 'Cinzel', serif;
 	font-size:	var(--font-size-h4);
 }
 /* Image of self */
