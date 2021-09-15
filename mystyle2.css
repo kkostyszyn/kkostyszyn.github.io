@@ -78,13 +78,11 @@ body {
 	margin: 0 auto;
     padding: 0 2em;
     max-width: 900px;
-
 }
 
 /* Style the header */
 .header {
 	grid-area:			header;
-	/*background-color: 	var(--background-primary);*/
 	text-align:			right;
 	font-size:			var(--font-size-h1);
 	padding:				10px;
@@ -114,15 +112,6 @@ body {
 /* Meat & potatoes - bio and research */
 .info{
 	padding:		10px;
-	grid-area: 	info;
-}
-.research{
-	padding:		10px;
-	grid-area: 	research;
-}
-.etc{
-	padding:		10px;
-	grid-area: 	etc;
 }
 
 /* Style the footer */
