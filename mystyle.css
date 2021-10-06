@@ -81,6 +81,7 @@ a:hover {
 
 body {
   font-family: 		Carto, Poppins, monospace;
+  font-weight: 		normal;
 }
 .container {
 	margin: 0 auto;
@@ -98,8 +99,9 @@ body {
 }
 /* Sub-header for quick links */
 .sub-header{
-	font-family: Carto, Nunito, serif;
-	font-size:	var(--font-size-h4);
+	font-family: 	Carto, Nunito, serif;
+	font-size:		var(--font-size-h4);
+	font-weight: 	bolder;
 }
 /* Image of self */
 .image-me{
