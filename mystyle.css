@@ -81,7 +81,7 @@ a:hover {
 
 body {
   font-family: 		Carto, Poppins, monospace;
-  font-weight: 		normal;
+  font-weight: 		200;
 }
 .container {
 	margin: 0 auto;
@@ -101,7 +101,7 @@ body {
 .sub-header{
 	font-family: 	Carto, Nunito, serif;
 	font-size:		var(--font-size-h4);
-	font-weight: 	bolder;
+	font-weight: 	600;
 }
 /* Image of self */
 .image-me{
