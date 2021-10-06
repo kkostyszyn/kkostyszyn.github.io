@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-
 @font-face{
-	font-family:	"Carto";
-	src:			url(C:/Windows/Fonts/Cartograph_CF/CartographCF-Regular.otf) format('opentype');
+	font-family:	Carto;
+	src:			url("assets/CartographCF-Regular.otf") 
+		format('opentype');
+}
+
+@font-face {
+	font-family: 	SpaceMono;
+	src: 			url("assets/Space\ Mono\ Nerd\ Font\ Complete.ttf")
+		format("truetype");
 }
 
 :root
@@ -72,7 +78,7 @@ a:hover {
 }
 
 body {
-  font-family: "Poppins", Courier New, monospace;
+  font-family: 		Carto, Courier New, monospace;
 }
 .container {
 	margin: 0 auto;
