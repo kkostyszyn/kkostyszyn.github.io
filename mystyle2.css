@@ -26,7 +26,7 @@
 	--font-size-h5:		20px;
 	--font-size-h6:		19px;
 
-  --background-primary:	#F2F1F8;
+  --background-primary:		#F2F1F8;
   --background-secondary:	#44475a;
   --background-accent:		#d5b4d1;
 
@@ -36,7 +36,7 @@
   --text-title-h4:		#0095a8;
   --text-title-h5:		#00bdd6;
   --text-title-h6:		#0094f0;
-  --inline-code:			#5842ff;
+  --inline-code:		#5842ff;
   --code-block:			#ff5792;
   --pre-code:			#e64100;
   --blockquote-border:	#b3694d;
@@ -45,15 +45,15 @@
 }
 
 a:link, a:visited{
-	font-weight: 	normal;
+	font-weight: 		normal;
 	color:				var(--background-accent);
-	text-decoration: none;
+	text-decoration: 	none;
 }
 
 a:hover {
   text-decoration: 	underline;
   font-weight: 		bold;
-  color:			   	var(--text-title-h4);
+  color:			var(--text-title-h4);
 }
 
 * {
@@ -78,7 +78,7 @@ a:hover {
 }
 
 body {
-  font-family: 		Carto, Courier New, monospace;
+  font-family: 		Carto, Poppins, monospace;
 }
 .container {
 	margin: 0 auto;
@@ -96,7 +96,7 @@ body {
 }
 /* Sub-header for quick links */
 .sub-header{
-	font-family: 'Cinzel', serif;
+	font-family: SpaceMono, serif;
 	font-size:	var(--font-size-h4);
 }
 /* Image of self */
@@ -108,7 +108,6 @@ body {
 }
 
 /* Menu bar - right now just colorful and pretty */
-
 .menubar{
 	grid-area:		menu;
 	background-color:		var(--background-accent);
